@@ -26,7 +26,7 @@
 
 ## Vídeo
 
-▶️ **[Assistir no YouTube (até 3 min)](COLE_AQUI_O_LINK_NAO_LISTADO)**
+▶️ **[Assistir no YouTube](https://youtube.com/shorts/gyjgLF9EyHA)** (1min31): app rodando no iPhone pelo Expo Go, com a jornada completa nos três modos e os dados sendo salvos e recuperados do SQLite.
 
 ---
 
@@ -69,15 +69,35 @@ O app tem **3 modos** (escolhidos na aba Perfil), porque cada pessoa do ecossist
 
 ### Prints
 
-| Início (idoso) | Início (família) | Alertas | Detalhe do alerta |
-|---|---|---|---|
-| ![Início idoso](docs/prints/inicio-idoso.png) | ![Início família](docs/prints/inicio-familia.png) | ![Alertas](docs/prints/alertas.png) | ![Detalhe](docs/prints/detalhe-alerta.png) |
+Capturas feitas no iPhone, com o app rodando no Expo Go.
 
-| Histórico | Visitas (agente) | Perfil | Erro / vazio |
-|---|---|---|---|
-| ![Histórico](docs/prints/historico.png) | ![Visitas](docs/prints/visitas.png) | ![Perfil](docs/prints/perfil.png) | ![Erro](docs/prints/erro.png) |
+**Modo idoso**
 
-> Para gerar os prints: rode o app no Expo Go, tire capturas de tela e salve em `docs/prints/` com os nomes acima.
+| Início | Início (rolando) | Histórico (dados do SQLite) |
+|---|---|---|
+| ![Início no modo idoso](docs/prints/inicio-idoso.jpeg) | ![Botões e clima de São Paulo](docs/prints/inicio-idoso-clima.jpeg) | ![Histórico](docs/prints/historico.jpeg) |
+
+**Modo família**
+
+| Início com aviso de risco | Situação da casa | Alertas |
+|---|---|---|
+| ![Início no modo família](docs/prints/inicio-familia.jpeg) | ![Último movimento e última água](docs/prints/inicio-familia-detalhes.jpeg) | ![Lista de alertas](docs/prints/alertas.jpeg) |
+
+| Detalhe do alerta | Detalhe do alerta de previsão |
+|---|---|
+| ![Detalhe do alerta](docs/prints/detalhe-alerta.jpeg) | ![Alerta de previsão do dia seguinte](docs/prints/detalhe-alerta-previsao.jpeg) |
+
+**Modo agente de saúde (UBS)**
+
+| Início | Visitas prioritárias |
+|---|---|
+| ![Início no modo agente](docs/prints/inicio-agente.jpeg) | ![Lista de visitas](docs/prints/visitas.jpeg) |
+
+**Perfil (salvo no SQLite)**
+
+| Modo de uso | Dados e simulação |
+|---|---|
+| ![Escolha do modo](docs/prints/perfil.jpeg) | ![Dados fictícios](docs/prints/perfil-dados.jpeg) |
 
 ## De onde vêm os dados
 
