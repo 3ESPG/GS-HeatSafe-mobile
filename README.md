@@ -143,7 +143,12 @@ src/
 ├── theme/                  # Cores, fontes, espaçamentos (tema centralizado)
 ├── types/                  # Tipos TypeScript
 └── utils/                  # Formatação de datas e números
+prompts.md                  # Registro do uso de IA (regra da GS)
 ```
+
+## Uso de IA
+
+Seguindo a regra da GS (*"IA como copiloto"*), os prompts usados, o que foi aproveitado, o que revisamos e como explicar cada parte do código estão em [`prompts.md`](prompts.md).
 
 ## Tecnologias
 
